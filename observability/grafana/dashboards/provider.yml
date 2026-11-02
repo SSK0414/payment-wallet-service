@@ -1,0 +1,9 @@
+apiVersion: 1
+providers:
+  - name: Wallet
+    orgId: 1
+    folder: Wallet
+    type: file
+    options:
+      path: /etc/grafana/provisioning/dashboards
+      foldersFromFilesStructure: false
